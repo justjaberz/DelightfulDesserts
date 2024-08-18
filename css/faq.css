@@ -1,5 +1,9 @@
-        body {
-            font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+    body {
+            font-family: "Bree Serif", cursive;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
@@ -29,6 +33,7 @@
             margin: 0;
         }
         .faq p {
+            font-family: "Lora", cursive;
             margin: 10px 0;
             padding: 0 15px;
             display: none;

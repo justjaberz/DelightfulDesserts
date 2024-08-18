@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
@@ -14,15 +16,22 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
+            font-family: "Bree Serif", cursive;
             text-align: center;
             color: lightpink;
         }
+        h2 {
+            font-family: "Bree Serif", cursive;
+        }
         h4 {
+            font-family: "Bree Serif", cursive;
             font-size: 30px;
             text-align: center;
             color: white;
+            padding: 0px 0px;
         }
         p {
+            font-family: "Lora", cursive;
             line-height: 1.6;
             margin-bottom: 20px;
         }
