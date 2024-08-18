@@ -1,0 +1,33 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or your branch name
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Pages
+        uses: actions/setup-pages@v1
+
+      - name: Deploy
+        run: |
+          mkdir -p ./out
+          cp -r ./html/* ./out  # Copy your 'html' folder contents
+          echo "html/index.html" > ./out/index.html  # Make index.html visible
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+
+  deploy_pages:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
