@@ -116,6 +116,7 @@ body {
             font-size: 20px;
             display: block;
             margin-top: 0px;
+            padding: 10px;
             background-color: white;
         }
 		h1 {
@@ -128,6 +129,11 @@ body {
 		h1.pink {
 			color: lightpink
 		}
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
 		
         h3 {
             text-align: center;
