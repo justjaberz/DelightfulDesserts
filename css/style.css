@@ -39,6 +39,8 @@ body {
             color: lightpink;
         }
         .main-section, .split-section {
+            display: flex;
+            justify-content: center; space-between;
             margin: 20px;
             text-align: center;
         }
@@ -51,6 +53,10 @@ body {
             cursor: pointer;
             transition: transform 0.3s ease;
         }
+        .split-section img.customer {
+            margin: 0 20px;
+        }
+
         .main-section img:hover, .split-section img:hover {
             transform: scale(1.05);
         }
@@ -65,10 +71,6 @@ body {
         .main-section a:hover, .split-section a:hover {
 			color:  #77dd77;
             color: lightpink;			
-        }
-        .split-section {
-            display: flex;
-            justify-content: space-between;
         }
         .split-section .column {
             flex: 1;
@@ -88,8 +90,11 @@ body {
             background-color: white;
         }
 		p.testimonial {
-			padding: 0px 4px;
+            display: flex;
+            font-size: 18px;
+            padding: 20px 10px;
 			margin: 20px 0px;
+            color: #77dd77
 		}
 		.text-container {
             display: flex;
@@ -104,16 +109,33 @@ body {
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: left; 
 			}
+        .orders {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            display: block;
+            margin-top: 0px;
+            background-color: white;
+        }
 		h1 {
 			text-align: center;
 			color: #77dd77;
+            padding: 0px;
+            background-color: white;
 		}
-		
+
 		h1.pink {
 			color: lightpink
 		}
 		
+        h3 {
+            text-align: center;
+            color: lightpink;
+            font-size: 30px;
+        }
+
 		div.main {
-			  display: flex;
-  justify-content: center; 
+			display: flex;
+            justify-content: center;
 		}

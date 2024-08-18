@@ -17,6 +17,11 @@
             text-align: center;
             color: lightpink;
         }
+        h4 {
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
         p {
             line-height: 1.6;
             margin-bottom: 20px;
