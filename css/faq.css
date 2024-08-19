@@ -2,46 +2,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 
-    body {
-            font-family: "Bree Serif", cursive;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            color: #333;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #77dd77;
-        }
-        .faq {
-            margin-bottom: 20px;
-        }
-        .faq h2 {
-            background-color: #77dd77;
-            color: white;
-            padding: 10px;
-            border-radius: 4px;
-            cursor: pointer;
-            margin: 0;
-        }
-        .faq p {
-            font-family: "Lora", cursive;
-            margin: 10px 0;
-            padding: 0 15px;
-            display: none;
-            background-color: #f9f9f9;
-            border-left: 3px solid #77dd77;
-        }
-        .faq h2.active + p {
-            display: block;
-        }
-		
-		
+body {
+    font-family: "Bree Serif", cursive;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #77dd77;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.faq h2 {
+    background-color: #77dd77;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.faq p {
+    font-family: "Lora", cursive;
+    margin: 10px 0;
+    padding: 0 15px;
+    display: none;
+    background-color: #f9f9f9;
+    border-left: 3px solid #77dd77;
+}
+
+.faq h2.active + p {
+    display: block;
+}
+

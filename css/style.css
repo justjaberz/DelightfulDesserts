@@ -2,148 +2,233 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
-            font-family: "Bree Serif", cursive;
-            margin: 0;
-            padding: 0;
-            background-color: #ebd8bd;
-        }
-        .menu {
-            background-color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        .menu a {
-            color: black;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-            transition: color 0.3s ease;
-        }
-        .menu a:hover {
-            color: lightpink;
-        }
-        
-        .menu {
-            background-color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        .menu a {
-            color: black;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-            transition: color 0.3s ease;
-        }
-        .menu a:hover {
-            color: lightpink;
-        }
-        .main-section, .split-section {
-            display: flex;
-            justify-content: center; space-between;
-            margin: 20px;
-            text-align: center;
-        }
-        .main-section img, .split-section img {
-            max-width: 100%;
-            height: auto;
-            border: none;
-            display: block;
-            margin: 0 auto;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .split-section img.customer {
-            margin: 0 20px;
-        }
+    font-family: "Bree Serif", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #ebd8bd;
+}
 
-        .main-section img:hover, .split-section img:hover {
-            transform: scale(1.05);
-        }
-        .main-section a, .split-section a {
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-            display: block;
-			margin-top: 0px;
-			background-color: white;
-        }
-        .main-section a:hover, .split-section a:hover {
-			color:  #77dd77;
-            color: lightpink;			
-        }
-        .split-section .column {
-            flex: 1;
-            margin: 0 10px;
-            text-align: center;
-        }
-        .split-section .column img {
-            max-width: 100%;
-            height: auto;
-        }
-        .split-section .column-text {
-            display: block;
-            align-items: center;
-            justify-content: center;
-            text-align: left;
-            padding: 0px;
-            background-color: white;
-        }
-		p.testimonial {
-            font-family: Lora;
-            display: flex;
-            font-size: 18px;
-            padding: 20px 10px;
-			margin: 20px 0px;
-            color: #77dd77
-		}
-		.text-container {
-            display: flex;
-            justify-content: center; 
-		}
-		.text {
-            font-family: "Lora", cursive;
-			width: 80%; 
-            max-width: 600px; 
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: left; 
-			}
-        .orders {
-            display: block;
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-            display: block;
-            margin-top: 0px;
-            padding: 10px;
-            background-color: white;
-        }
-		h1 {
-			text-align: center;
-			color: #77dd77;
-            padding: 0px;
-            background-color: white;
-		}
+.menu {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
 
-		h1.pink {
-			color: lightpink
-		}
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
 
-        h2 {
-            font-size: 20px;
-            text-align: center;
-        }
-		
-        h3 {
-            text-align: center;
-            color: lightpink;
-            font-size: 30px;
-        }
+.menu a:hover {
+    color: lightpink;
+}
 
-		div.main {
-			display: flex;
-            justify-content: center;
-		}
+.menu {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: lightpink;
+}
+
+.main-section, .split-section, .aboutbottom {
+    display: flex;
+    justify-content: center; space-between;
+    margin: 20px;
+    text-align: center;
+}
+
+.main-section img, .split-section img {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.split-section img.customer {
+    margin: 0 20px;
+}
+
+.main-section img:hover, .split-section img:hover {
+    transform: scale(1.05);
+}
+
+.main-section a, .split-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+	margin-top: 0px;
+	background-color: white;
+}
+
+.main-section a:hover, .split-section a:hover {
+	color:  #77dd77;
+    color: lightpink;			
+}
+
+.split-section .column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.split-section .column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.split-section .column-text {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0px;
+    background-color: white;
+}
+
+p.testimonial {
+    font-family: Lora;
+    display: flex;
+    font-size: 18px;
+    padding: 20px 10px;
+	margin: 20px 0px;
+    color: #77dd77
+}
+
+.text-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.text {
+    font-family: "Lora", cursive;
+	width: 80%; 
+    max-width: 600px; 
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+
+.orders {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+.aboutbottom {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 0px;
+    background-color: white;
+}
+
+.footer-container div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+.footer-container div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #77dd77;
+    padding: 0px;
+    background-color: white;
+}
+
+h1.pink {
+	color: lightpink
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: lightpink;
+    font-size: 25px;
+}
+div.main {
+	display: flex;
+    justify-content: center;
+}
